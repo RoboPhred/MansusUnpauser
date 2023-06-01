@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>preview</LangVersion>
+    <RootNamespace>CultistAutofill</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>.\externals\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SecretHistories.Main">
+      <HintPath>.\externals\SecretHistories.Main.dll</HintPath>
+    </Reference>
+    <Reference Include="SecretHistories.Enums">
+      <HintPath>.\externals\SecretHistories.Enums.dll</HintPath>
+    </Reference>
+    <Reference Include="SecretHistories.Interfaces">
+      <HintPath>.\externals\SecretHistories.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>.\externals\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>.\externals\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Engine.InputSystem">
+      <HintPath>.\externals\Unity.InputSystem.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

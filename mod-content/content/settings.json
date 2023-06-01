@@ -1,0 +1,17 @@
+{
+  "settings": [
+    {
+      "id": "mansuspause_enabled",
+      "tabid": "UI_GAMEPLAY",
+      "hint": "UI_MANSUSPAUSE_ENABLED",
+      "minvalue": 0,
+      "maxvalue": 1,
+      "datatype": "Int32",
+      "defaultvalue": "0",
+      "valuelabels": {
+        "0": "UI_OFF",
+        "1": "UI_ON"
+      }
+    }
+  ]
+}

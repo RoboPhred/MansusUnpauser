@@ -1,0 +1,10 @@
+{
+    "cultures": [
+        {
+            "id": "en",
+            "uilabels$add": {
+                "UI_MANSUSPAUSE_ENABLED": "Unpause after a Mansus visit"
+            }
+        }
+    ]
+}
